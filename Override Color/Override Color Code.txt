@@ -1,0 +1,98 @@
+
+
+Sub OverrideColorPick()
+
+    Dim oSketchLine As SketchLine
+    Dim oColor As Inventor.Color
+    Set oColor = ThisApplication.TransientObjects.CreateColor(210, 125, 45)
+    
+    
+    Do
+    
+    Set oSketchLine = ThisApplication.CommandManager.Pick(SelectionFilterEnum.kSketchCurveLinearFilter, "Select the Sketchline or hit ESCAPE...")
+    If Not oSketchLine Is Nothing Then oSketchLine.OverrideColor = oColor
+    
+    
+    Loop While Not oSketchLine Is Nothing
+
+
+
+
+End Sub
+
+
+Sub ResetOverrideColorPick()
+
+    Dim oSketchLine As SketchLine
+
+    
+    Do
+    
+    Set oSketchLine = ThisApplication.CommandManager.Pick(SelectionFilterEnum.kSketchCurveLinearFilter, "Select the Sketchline or hit ESCAPE...")
+    If Not oSketchLine Is Nothing Then oSketchLine.OverrideColor = Nothing
+    
+    
+    Loop While Not oSketchLine Is Nothing
+
+
+
+
+End Sub
+
+
+
+
+Sub OverrideColor()
+    Dim oPartDoc As PartDocument: Set oPartDoc = ThisApplication.ActiveDocument
+    Dim oPartDef As PartComponentDefinition: Set oPartDef = oPartDoc.ComponentDefinition
+    
+    Dim oSketch As PlanarSketch: Set oSketch = oPartDef.Sketches.Item("SKETCH OVERRIDE COLOR")
+    
+    Dim oSketchLine As SketchLine
+    Dim oColor As Inventor.Color: Set oColor = ThisApplication.TransientObjects.CreateColor(210, 125, 45)
+    
+    For Each oSketchLine In oSketch.SketchLines
+    
+        oSketchLine.OverrideColor = oColor
+        
+        
+    
+    Next
+    
+
+
+
+End Sub
+
+
+Sub ResetOverrideColor()
+    Dim oPartDoc As PartDocument: Set oPartDoc = ThisApplication.ActiveDocument
+    Dim oPartDef As PartComponentDefinition: Set oPartDef = oPartDoc.ComponentDefinition
+    
+    Dim oSketch As PlanarSketch: Set oSketch = oPartDef.Sketches.Item("SKETCH OVERRIDE COLOR")
+    
+    Dim oSketchLine As SketchLine
+    
+    For Each oSketchLine In oSketch.SketchLines
+    
+        oSketchLine.OverrideColor = Nothing
+        
+        
+    
+    Next
+    
+
+
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
