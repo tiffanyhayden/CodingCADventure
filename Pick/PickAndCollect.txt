@@ -1,0 +1,26 @@
+Sub PickAndCollect()
+
+    Dim oHighlightSet As HighlightSet: Set oHighlightSet = ThisApplication.ActiveDocument.CreateHighlightSet
+    Dim oCollection As ObjectCollection: Set oCollection = ThisApplication.TransientObjects.CreateObjectCollection
+    Dim oSketchline As SketchLine
+    
+    
+    Do
+    
+        Set oSketchline = ThisApplication.CommandManager.Pick(kSketchCurveLinearFilter, "Pick a sketchline or hit ESCAPE...")
+        If Not oSketchline Is Nothing Then
+            oSketchline.OverrideColor = oHighlightSet.Color
+            Call oCollection.Add(oSketchline)
+        End If
+    
+    Loop While Not oSketchline Is Nothing
+
+
+
+    For Each oSketchline In oCollection
+        oSketchline.OverrideColor = Nothing
+    Next
+
+
+
+End Sub
