@@ -1,0 +1,21 @@
+Sub CreateDrawing()
+
+    Dim oDoc As Document: Set oDoc = ThisApplication.ActiveDocument
+    Dim oAssyDoc As AssemblyDocument
+    Dim oDrawDoc As DrawingDocument
+    Dim templatePath As String: templatePath = "C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\Templates\Standard.dwg"
+    
+    
+    If Not TypeOf oDoc Is AssemblyDocument Then
+        Exit Sub
+    End If
+    
+    Set oAssyDoc = oDoc
+    
+    
+    Set oDrawDoc = ThisApplication.Documents.Add(kDrawingDocumentObject, templatePath, True)
+
+
+    Call oDrawDoc.SaveAs(Replace(oAssyDoc.FullFileName, ".iam", ".dwg"), False)
+
+End Sub
