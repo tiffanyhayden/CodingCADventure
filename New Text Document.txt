@@ -1,0 +1,49 @@
+Public Sub Test()
+
+
+    Dim activeDoc As PartDocument: Set activeDoc = ThisApplication.ActiveDocument
+    Dim centerSketchPoint As SketchPoint
+    Set centerSketchPoint = ThisApplication.CommandManager.Pick(SelectionFilterEnum.kSketchPointFilter, "Pick Center Point")
+    Dim activeSketch As PlanarSketch: Set activeSketch = centerSketchPoint.Parent
+    Dim circleDia As Double: circleDia = 2
+    Dim activeTG As TransientGeometry: Set activeTG = ThisApplication.TransientGeometry
+    
+    Dim patternSketchCircle As SketchCircle: Set patternSketchCircle = activeSketch.SketchCircles.AddByCenterRadius(centerSketchPoint, (circleDia / 2) * 2.54)
+    
+    
+    Call activeSketch.GeometricConstraints.AddCoincident(centerSketchPoint, patternSketchCircle.centerSketchPoint)
+
+    Dim patternSketchPoints As ObjectCollection: Set patternSketchPoints = ThisApplication.TransientObjects.CreateObjectCollection
+    
+    Dim patternPoint2d As Point2d: Set patternPoint2d = activeTG.CreatePoint2d(centerSketchPoint.Geometry.X + ((circleDia / 2) * 2.54), _
+                                                                                    centerSketchPoint.Geometry.Y)
+    
+
+    Dim startSketchPoint As SketchPoint: Set startSketchPoint = activeSketch.SketchPoints.Add(patternPoint2d, True)
+    
+    Call patternSketchPoints.Add(startSketchPoint)
+    
+    
+    Call activeSketch.GeometricConstraints.AddCoincident(startSketchPoint, patternSketchCircle)
+    
+    Dim patternQty As Integer: patternQty = 6
+    
+    Dim angle As String: angle = CStr(360 / patternQty) & " deg"
+    
+    Dim patterns As SketchCircularPatterns: Set patterns = activeSketch.CircularPatterns
+    
+    Dim circPatternDef As SketchCircularPatternDefinition
+    Set circPatternDef = patterns.CreateDefinition(patternSketchPoints, centerSketchPoint, , patternQty, angle)
+    
+    
+    Dim circPattern As SketchCircularPattern
+    
+    Set circPattern = activeSketch.CircularPatterns.Add(circPatternDef)
+    
+    
+    
+    
+    
+
+
+End Sub

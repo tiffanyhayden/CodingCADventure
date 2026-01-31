@@ -1,0 +1,24 @@
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\CodingCADventureCSharp.deps.json
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\CodingCADventureCSharp.dll
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\CodingCADventureCSharp.pdb
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\Autodesk.Inventor.Interop.dll
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\stdole.dll
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\Autodesk.Inventor.Interop.xml
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCADventureCSharp.csproj.AssemblyReference.cache
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCADventureCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCADventureCSharp.csproj.CoreCompileInputs.cache
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCADventureCSharp.sourcelink.json
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCA.74CD6345.Up2Date
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCADventureCSharp.dll
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\refint\CodingCADventureCSharp.dll
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCADventureCSharp.pdb
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\ref\CodingCADventureCSharp.dll
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCADventureCSharp.Resources.resources
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\obj\Debug\net8.0-windows\CodingCADventureCSharp.csproj.GenerateResource.cache
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\Autodesk.CodingCADventureCSharp.Inventor.addin
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Interop.dll
+C:\Users\TiffanyHayden\Documents\GitHub\CodingCADventure\CodingCADventureCSharp\CodingCADventureCSharp\bin\Debug\net8.0-windows\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+C:\ProgramData\Autodesk\Inventor Addins\CodingCADventureCSharp\net8.0-windows\Autodesk.CodingCADventureCSharp.Inventor.addin
+C:\ProgramData\Autodesk\Inventor Addins\CodingCADventureCSharp\net8.0-windows\CodingCADventureCSharp.deps.json
+C:\ProgramData\Autodesk\Inventor Addins\CodingCADventureCSharp\net8.0-windows\CodingCADventureCSharp.dll
+C:\ProgramData\Autodesk\Inventor Addins\CodingCADventureCSharp\net8.0-windows\CodingCADventureCSharp.pdb

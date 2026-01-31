@@ -1,0 +1,91 @@
+Public Sub AddDrawingSketchToView()
+
+    Dim activeDoc As DrawingDocument: Set activeDoc = ThisApplication.ActiveDocument
+    Dim activeSheet As Sheet: Set activeSheet = activeDoc.activeSheet
+    Dim activeView As DrawingView: Set activeView = activeSheet.DrawingViews(1)
+    Dim activeSketch As DrawingSketch
+    Dim activeModel As PartDocument: Set activeModel = activeDoc.ReferencedFiles.Item(1)
+    Dim activeWorkPoint As WorkPoint
+    Dim foundSketch As DrawingSketch
+    Dim activeSketchName As String: activeSketchName = "MySketch"
+    Dim foundWorkPoint As WorkPoint
+    Dim foundWorkPointName As String: foundWorkPointName = "BoltCircleAttach"
+    Dim activeCenterMark As Centermark
+    Dim activeWPointProxy As WorkPointProxy
+    Dim activeTg As TransientGeometry: Set activeTg = ThisApplication.TransientGeometry
+    Dim centerPoint As Point2d
+    Dim cornerTop As Point2d
+    Dim cornerRight As Point2d
+    Dim cornerBottom As Point2d
+    Dim cornerLeft As Point2d
+    
+    'Find sketch if it already exists --> for future edit mode if needed
+    For Each foundSketch In activeView.Sketches
+        If foundSketch.Name = activeSketchName Then
+            Set activeSketch = foundSketch
+            Exit For
+        End If
+    
+    Next
+    
+    'Create new sketch if sketch doesn't already exist.
+    If activeSketch Is Nothing Then
+        Set activeSketch = activeView.Sketches.Add
+        activeSketch.Name = activeSketchName
+    End If
+    
+    If Not activeSketch Is Nothing Then
+        'Enter sketch
+        activeSketch.Edit
+    
+        'Find the work point in model that matches name
+        For Each foundWorkPoint In activeModel.ComponentDefinition.WorkPoints
+            If foundWorkPoint.Name = foundWorkPointName Then
+                Set activeWorkPoint = foundWorkPoint
+                Exit For
+            End If
+        Next
+        
+        
+        If Not activeWorkPoint Is Nothing Then
+            
+            'Include geometry in drawing.
+            Call activeView.SetIncludeStatus(activeWorkPoint, True)
+            Call activeView.SetVisibility(activeWorkPoint, True)
+            
+            'Create center mark and project geometry in sketch
+            Set activeCenterMark = activeSheet.Centermarks.AddByWorkFeature(activeWorkPoint, activeView)
+            Call activeSketch.AddByProjectingEntity(activeCenterMark)
+            
+            'Convert geometry into view space
+            Set centerPoint = activeView.SheetToDrawingViewSpace(activeCenterMark.Position)
+            
+            'create new points based on converted geometry
+            Set cornerTop = activeTg.CreatePoint2d(centerPoint.X + 2, centerPoint.Y)
+            Set cornerRight = activeTg.CreatePoint2d(centerPoint.X, centerPoint.Y + 2)
+            Set cornerBottom = activeTg.CreatePoint2d(centerPoint.X - 2, centerPoint.Y)
+            Set cornerLeft = activeTg.CreatePoint2d(centerPoint.X, centerPoint.Y - 2)
+            
+            
+            'create lines to represent diamond
+            Call activeSketch.SketchLines.AddByTwoPoints(cornerTop, cornerRight)
+            Call activeSketch.SketchLines.AddByTwoPoints(cornerRight, cornerBottom)
+            Call activeSketch.SketchLines.AddByTwoPoints(cornerBottom, cornerLeft)
+            Call activeSketch.SketchLines.AddByTwoPoints(cornerLeft, cornerTop)
+            
+            
+            'exit sketch
+            activeSketch.ExitEdit
+            
+        
+        End If
+        
+
+    End If
+    '
+    
+    
+
+
+
+End Sub

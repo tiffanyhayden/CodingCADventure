@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|c:\\users\\tiffanyhayden\\documents\\github\\codingcadventure\\codingcadventurecsharp\\codingcadventurecsharp\\drawingutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|solutionrelative:codingcadventurecsharp\\drawingutilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|c:\\users\\tiffanyhayden\\documents\\github\\codingcadventure\\codingcadventurecsharp\\codingcadventurecsharp\\customribbon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|solutionrelative:codingcadventurecsharp\\customribbon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|c:\\users\\tiffanyhayden\\documents\\github\\codingcadventure\\codingcadventurecsharp\\codingcadventurecsharp\\standardaddinserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|solutionrelative:codingcadventurecsharp\\standardaddinserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|c:\\users\\tiffanyhayden\\documents\\github\\codingcadventure\\codingcadventurecsharp\\codingcadventurecsharp\\autodesk.codingcadventurecsharp.inventor.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|solutionrelative:codingcadventurecsharp\\autodesk.codingcadventurecsharp.inventor.addin||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|c:\\users\\tiffanyhayden\\documents\\github\\codingcadventure\\codingcadventurecsharp\\codingcadventurecsharp\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|solutionrelative:codingcadventurecsharp\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|c:\\users\\tiffanyhayden\\documents\\github\\codingcadventure\\codingcadventurecsharp\\codingcadventurecsharp\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|solutionrelative:codingcadventurecsharp\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|c:\\users\\tiffanyhayden\\documents\\github\\codingcadventure\\codingcadventurecsharp\\codingcadventurecsharp\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48F5963E-7697-496A-8654-E28C7A1CAEA2}|CodingCADventureCSharp\\CodingCADventureCSharp.csproj|solutionrelative:codingcadventurecsharp\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DrawingUtilities.cs",
+              "DocumentMoniker": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\DrawingUtilities.cs",
+              "RelativeDocumentMoniker": "CodingCADventureCSharp\\DrawingUtilities.cs",
+              "ToolTip": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\DrawingUtilities.cs",
+              "RelativeToolTip": "CodingCADventureCSharp\\DrawingUtilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T18:53:02.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomRibbon.cs",
+              "DocumentMoniker": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\CustomRibbon.cs",
+              "RelativeDocumentMoniker": "CodingCADventureCSharp\\CustomRibbon.cs",
+              "ToolTip": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\CustomRibbon.cs",
+              "RelativeToolTip": "CodingCADventureCSharp\\CustomRibbon.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T18:30:37.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StandardAddInServer.cs",
+              "DocumentMoniker": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\StandardAddInServer.cs",
+              "RelativeDocumentMoniker": "CodingCADventureCSharp\\StandardAddInServer.cs",
+              "ToolTip": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\StandardAddInServer.cs",
+              "RelativeToolTip": "CodingCADventureCSharp\\StandardAddInServer.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T14:05:12.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Autodesk.CodingCADventureCSharp.Inventor.addin",
+              "DocumentMoniker": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\Autodesk.CodingCADventureCSharp.Inventor.addin",
+              "RelativeDocumentMoniker": "CodingCADventureCSharp\\Autodesk.CodingCADventureCSharp.Inventor.addin",
+              "ToolTip": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\Autodesk.CodingCADventureCSharp.Inventor.addin",
+              "RelativeToolTip": "CodingCADventureCSharp\\Autodesk.CodingCADventureCSharp.Inventor.addin",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000072|",
+              "WhenOpened": "2026-01-14T14:06:31.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\Utilities.cs",
+              "RelativeDocumentMoniker": "CodingCADventureCSharp\\Utilities.cs",
+              "ToolTip": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\Utilities.cs",
+              "RelativeToolTip": "CodingCADventureCSharp\\Utilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T15:30:55.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "CodingCADventureCSharp\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\Resources.Designer.cs",
+              "RelativeToolTip": "CodingCADventureCSharp\\Resources.Designer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAywFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T14:17:21.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageConverter.cs",
+              "DocumentMoniker": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\ImageConverter.cs",
+              "RelativeDocumentMoniker": "CodingCADventureCSharp\\ImageConverter.cs",
+              "ToolTip": "C:\\Users\\TiffanyHayden\\Documents\\GitHub\\CodingCADventure\\CodingCADventureCSharp\\CodingCADventureCSharp\\ImageConverter.cs",
+              "RelativeToolTip": "CodingCADventureCSharp\\ImageConverter.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAxwDwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T14:55:15.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
