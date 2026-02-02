@@ -27,7 +27,7 @@ using System.Runtime.InteropServices;
 //      Build Number
 //      Revision
 //
-[assembly: AssemblyVersion("2026.1.31.7")]
+[assembly: AssemblyVersion("2026.1.31.10")]
 
 //
 // In order to sign your assembly you must specify a key to use. Refer to the 

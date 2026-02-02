@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClosestGetPoint.cs" />
     <Compile Include="CustomRibbon.cs" />
     <Compile Include="DrawingUtilities.cs" />
     <Compile Include="Globals.cs" />
