@@ -60,8 +60,10 @@ namespace CodingCADventureCSharp
         private void Run_OnExecute(NameValueMap context)
         {
 
-            DrawingUtilities.DrawingPointOnSheet();
+            //DrawingUtilities.DrawingPointOnSheet(false);
 
+
+            DrawingUtilities.AddAngleDim();
 
         }
 

@@ -18,38 +18,46 @@ namespace CodingCADventureCSharp
 
         public static Point2d GetDrawingPoint(string prompt, MouseButtonEnum button)
         {
-            _position = null;
-            _button = button;
-            _continue = true;
 
-            _interaction = Globals.InvApp.CommandManager.CreateInteractionEvents();
-            _mouse = _interaction.MouseEvents;
-
-            
-
-            _mouse.OnMouseClick += Mouse_OnMouseClick;
-
-            _interaction.OnTerminate += Interaction_OnTerminate;
-
-            Globals.InvApp.StatusBarText = prompt;
-            _interaction.StatusBarText = prompt;
-            _interaction.Start();
-
-            Globals.InvApp.UserInterfaceManager.DoEvents();
-            Globals.InvApp.StatusBarText = prompt;
-
-
-            while (_continue)
+            if(Globals.InvApp.ActiveDocument != null)
             {
+                _position = null;
+                _button = button;
+                _continue = true;
+
+                _interaction = Globals.InvApp.CommandManager.CreateInteractionEvents();
+                _mouse = _interaction.MouseEvents;
+
+
+
+                _mouse.OnMouseClick += Mouse_OnMouseClick;
+
+                _interaction.OnTerminate += Interaction_OnTerminate;
+
+                Globals.InvApp.StatusBarText = prompt;
+                _interaction.StatusBarText = prompt;
+                _interaction.Start();
+
                 Globals.InvApp.UserInterfaceManager.DoEvents();
+                Globals.InvApp.StatusBarText = prompt;
+
+
+                while (_continue)
+                {
+                    Globals.InvApp.UserInterfaceManager.DoEvents();
+                }
+
+                try { _interaction.Stop(); } catch { }
+
+                _mouse.OnMouseClick -= Mouse_OnMouseClick;
+                _interaction.OnTerminate -= Interaction_OnTerminate;
+
+                return _position;
+
             }
 
-            try { _interaction.Stop(); } catch { }
-
-            _mouse.OnMouseClick -= Mouse_OnMouseClick;
-            _interaction.OnTerminate -= Interaction_OnTerminate;
-
-            return _position;
+            return null;
+           
 
 
         }
